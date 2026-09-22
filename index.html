@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ludo Best | Tournament App</title>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5NMJC353S3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-5NMJC353S3');
+    </script>
+
+        <!-- Block Right Click -->
+    <script>
+      document.addEventListener("contextmenu", (event) => event.preventDefault());
+    </script>
+
+    <!-- Block Developer Tools Keyboard Shortcuts -->
+    <script>
+      document.addEventListener("keydown", function (event) {
+        if (
+          event.key === "F12" ||
+          (event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) ||
+          (event.ctrlKey && event.key === "U")
+        ) {
+          event.preventDefault();
+        }
+      });
+    </script>
+
+    <!-- Block Inspect Element (Ctrl + Shift + C) -->
+    <script>
+      document.addEventListener("keydown", function (event) {
+        if (event.ctrlKey && event.shiftKey && event.key === "C") {
+          event.preventDefault();
+        }
+      });
+    </script>
+    
+    <!-- WhatsApp Floating Button -->
+    <script src="https://rawcdn.githack.com/joaopereirawd/whatsapp-widget/0f6b68d8d7a2dfc7aa72c84b622c9b6e9dce930f/whatsapp-widget.min.js"></script>
+    <script>
+      whatsappchat.create({
+        number: "+8801825669906", // Your WhatsApp number
+        position: "right", // 'left' or 'right'
+        text: "Chat with us on WhatsApp",
+      });
+    </script>
+    <script type="module" crossorigin src="/assets/index-5SfCKwS4.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-QZCzcapP.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+      </html>
